@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 50%;
+  height: 50%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<div class="sidenav">
+  <a href="index.HTML">Home</a>
+  <a href="ABOUT.HTML">About</a>
+  <a href="servises.html">Services</a>
+  <a href="Tools.html">Tools</a>
+  <a href="contact.html">Contact</a>
+<a href="Gallery.html">Gallery</a>
+</div>
+<body align="center">
+			<h1 ALIGN="CENTER"><p>IPHONE AND ANDROID SPECIALIST</p></H1>
+
+  <div class="container" align="center">
+  <img src="self.jpeg" alt="Avatar" class="image" style="width:50%" >
+  <div class="middle">
+    <div class="text">SIR ABDUL BASIT</div>
+    <div class="text">IPHONE SPECIALIST</div>
+  </div>
+<H2 ALIGN="CENTERE"><P>MOBILE REPAIR EXPERT HERE!!!!</P></H2>
+
+<img  src="IOS.webp" alt="Girl in a jacket" width="200" height="250" align="center">
+
+
+</div>
+  			
+</body>
+</html>
